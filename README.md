@@ -8,17 +8,17 @@
 
 #### 安装依赖
 ```
-npm install
+yarn install
 ```
 #### 运行
 ```
-npm run dev
+yarn run dev
 ```
 
 打开http://localhost:8080
 
 ### 使用：
-使用src/components/page.vue文件
+使用src/components/vuePage/vuePage.vue文件
 
 :param = "[objdata]" 
 objdata: {
@@ -29,3 +29,13 @@ objdata: {
 methods function(num) {
   //num为点击的第几页
 }
+
+# slider
+这是一个使用better-scroll做的轮播图组件
+
+### 使用：
+使用src/components/slider/slider.vue文件
+
+:loop = Boolean 默认:true  是否无缝滚动
+:autoPlay = Boolean 默认:true 是否自动滚动
+:interval = Number  默认:4000 滚动间隔

@@ -10,6 +10,16 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/vuePage',
+      name: 'vuePage',
+      component: (resolve) => require(['@/example/vuePage'], resolve)
+    },
+    {
+      path: '/slider',
+      name: 'slider',
+      component: (resolve) => require(['@/example/slider'], resolve)
     }
   ]
 })
