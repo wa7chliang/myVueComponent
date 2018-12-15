@@ -26,16 +26,12 @@ export default {
     },
     pnBtn (type) {
       if (type === 'prev') {
-        if (this.num === 1) {
-
-        } else {
+        if (this.num !== 1) {
           this.num--
           this.$emit('getNowCount', this.num)
         }
       } else {
-        if (this.num === this.param.count) {
-
-        } else {
+        if (this.num !== this.param.count) {
           this.num++
           this.$emit('getNowCount', this.num)
         }

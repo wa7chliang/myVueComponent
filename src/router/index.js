@@ -20,6 +20,11 @@ export default new Router({
       path: '/slider',
       name: 'slider',
       component: (resolve) => require(['@/example/slider'], resolve)
+    },
+    {
+      path: '/animation',
+      name: 'animation',
+      component: (resolve) => require(['@/example/animation'], resolve)
     }
   ]
 })
