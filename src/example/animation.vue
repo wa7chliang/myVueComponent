@@ -18,7 +18,7 @@ import Velocity from 'velocity-animate'
 export default {
   data () {
     return {
-      show: false
+      show: true
     }
   },
   methods: {
