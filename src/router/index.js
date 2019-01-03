@@ -25,6 +25,11 @@ export default new Router({
       path: '/animation',
       name: 'animation',
       component: (resolve) => require(['@/example/animation'], resolve)
+    },
+    {
+      path: '/timeSheet',
+      name: 'timeSheet',
+      component: (resolve) => require(['@/example/timeSheet'], resolve)
     }
   ]
 })
