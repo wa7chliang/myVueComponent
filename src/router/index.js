@@ -30,6 +30,11 @@ export default new Router({
       path: '/timeSheet',
       name: 'timeSheet',
       component: (resolve) => require(['@/example/timeSheet'], resolve)
+    },
+    {
+      path: '/securityCode',
+      name: 'securityCode',
+      component: (resolve) => require(['@/example/securityCode'], resolve)
     }
   ]
 })
